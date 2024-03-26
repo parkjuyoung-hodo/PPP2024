@@ -6,6 +6,6 @@ for i in range(13):
     c=i*15
     a_sin=math.sin((math.pi*((c)/180)))
     a_cos=math.cos((math.pi*((c)/180)))
-    a_tan=math.cos((math.pi*((c)/180)))
+    a_tan=math.tan((math.pi*((c)/180)))
 
     print(f'sin{c}:{round(a_sin,4)}\ncos{c}:{round(a_cos,4)}\ntan{c}:{round(a_tan,4)}')

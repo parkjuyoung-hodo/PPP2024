@@ -4,4 +4,5 @@
 n=int(input('별의 개수를 적어주세요:'))
 
 for i in range(n):
-    print('*'*(i+n))
+    star="*"
+    print(f"{(i+1)*(star)}")
