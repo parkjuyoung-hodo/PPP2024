@@ -136,14 +136,6 @@ youtube_button = tk.Button(frame2, text="유튜브 접속", command=btn_exit, wi
 youtube_button.pack(pady=50)
 
 
-
-# #세 번째 장
-# frame3=tkinter.Frame(win)
-# notebook.add(frame3, text="유튜브")
-#
-# label3=tkinter.Label(frame3, text="유튜브")
-# label3.pack()
-
 #창실행
 win.mainloop()
 
